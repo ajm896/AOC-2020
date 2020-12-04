@@ -1,4 +1,6 @@
 const ROW_LEN = 31
+
+// Answer: 280
 const part1 = data => {
   
   //arr[y][x]
@@ -21,6 +23,7 @@ const part1 = data => {
   return trees.length
 };
 
+// Answer: 4355551200
 const part2 = data => {
       
   //arr[y][x]

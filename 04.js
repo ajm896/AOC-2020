@@ -1,3 +1,4 @@
+// Answer: 239
 const part1 = data => {
   let db = readData(data)
 
@@ -5,6 +6,7 @@ const part1 = data => {
   return valid.length
 };
 
+// Answer: 188
 const part2 = data => {
   let db = readData(data)
   let valid = db.filter(validCount)

@@ -1,3 +1,4 @@
+//Answer: 692916
 const part1 = data => {        
   let arr = data.split("\n").map(i => parseInt(i))
   for (let i = 0; i < arr.length; i++){
@@ -7,6 +8,7 @@ const part1 = data => {
   }
 };
 
+//Answer: 289270976
 const part2 = data => {
     let arr = data.split("\n").map(i => parseInt(i))
   for (let i = 0; i < arr.length; i++){
